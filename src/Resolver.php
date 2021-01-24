@@ -80,7 +80,7 @@ class Resolver
         if ($generator->valid() === false) {
             unset($this->generators[$key]);
 
-            $this->results[$key] = Runtime::await($generator->getReturn());
+            $this->results[$key] = Coroutine::runCoroutine($generator->getReturn());
         }
     }
 
