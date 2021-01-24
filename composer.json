@@ -1,0 +1,19 @@
+{
+    "name": "mosamirzz/php-coroutines",
+    "description": "Simple Coroutines implementation using php Generators.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohamed Samir",
+            "email": "gm.mohamedsamir@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "MoSamirzz\\Coroutine\\": "src/"
+        }
+    },
+    "require": {}
+}
